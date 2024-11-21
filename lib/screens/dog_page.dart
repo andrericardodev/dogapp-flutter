@@ -41,7 +41,7 @@ class _DogPageState extends State<DogPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Dog API Example'),
+        title: const Text('Dog App'),
       ),
       body: Center(
         child: isLoading
