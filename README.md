@@ -1,16 +1,31 @@
-# dogapp
+# 🐶 Dog API Example
 
-DogApp
+Este é um aplicativo Flutter simples que consome a [Dog API](https://dog.ceo/dog-api/) para exibir imagens aleatórias de cachorros.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📋 Funcionalidades
 
-A few resources to get you started if this is your first Flutter project:
+- Exibe uma imagem aleatória de cachorro ao carregar o aplicativo.
+- Possibilidade de carregar uma nova imagem clicando em um botão.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tecnologias Utilizadas
+
+- **Flutter**: Framework principal para desenvolvimento multiplataforma.
+- **Dart**: Linguagem de programação usada com Flutter.
+- **HTTP**: Biblioteca para realizar requisições à API.
+
+---
+
+## 📂 Estrutura do Projeto
+
+```plaintext
+lib/
+├── main.dart             # Ponto de entrada da aplicação
+├── screens/
+│   └── dog_page.dart     # Tela principal com a lógica de exibição
+├── services/
+│   └── dog_service.dart  # Serviço responsável pela requisição à API
+```
