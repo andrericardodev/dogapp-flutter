@@ -57,3 +57,7 @@ lib/
    ```
 
 ---
+
+## 🔧 Possíveis Melhorias
+
+- Implementar testes unitários e de interface.
