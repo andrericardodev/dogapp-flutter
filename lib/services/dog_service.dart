@@ -8,7 +8,7 @@ class DogService {
 
     if (response.statusCode == 200) {
       final data = json.decode(response.body);
-      return data['message']; // URL da imagem do cachorro
+      return data['message']; 
     } else {
       throw Exception('Erro ao carregar a imagem');
     }
