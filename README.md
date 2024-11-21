@@ -1,4 +1,4 @@
-# 🐶 Dog API Example
+# 🐶 Dog App
 
 Este é um aplicativo Flutter simples que consome a [Dog API](https://dog.ceo/dog-api/) para exibir imagens aleatórias de cachorros.
 
